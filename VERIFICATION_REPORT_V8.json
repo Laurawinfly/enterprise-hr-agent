@@ -1,0 +1,18 @@
+{
+  "version": "v8-security-governance-harness-hardened",
+  "python_compileall": "passed",
+  "pytest": {"status": "passed", "passed": 22},
+  "fixes": [
+    "restored AgentRuntime backward compatibility",
+    "lazy-loaded optional OpenAI SDK so zero-key paths remain testable",
+    "lazy-loaded MCP SDK so local transport remains testable",
+    "updated stale LLM context test to ToolTransport boundary",
+    "preserved RAG evidence source compatibility",
+    "expanded README architecture/run/deploy/security documentation"
+  ],
+  "not_live_verified": [
+    "real OpenAI/DeepSeek API calls",
+    "live MCP Streamable HTTP server/client",
+    "live PostgreSQL/pgvector retrieval"
+  ]
+}
