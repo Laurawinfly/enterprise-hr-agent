@@ -1,0 +1,7 @@
+[
+  {"input":"我还有多少年假？","employee_id":"E001","expected_tool":"get_leave_balance"},
+  {"input":"查询一下年假余额","employee_id":"E002","expected_tool":"get_leave_balance"},
+  {"input":"帮我请2026-10-01一天年假","employee_id":"E001","expected_tool":"start_leave_request"},
+  {"input":"病假政策是什么？","employee_id":"E001","expected_tool":"search_hr_policy"},
+  {"input":"年假有什么规定？","employee_id":"E001","expected_tool":"search_hr_policy"}
+]
