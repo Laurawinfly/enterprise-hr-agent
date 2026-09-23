@@ -1,0 +1,11 @@
+{
+  "cases": 5,
+  "tool_selection_accuracy": 1.0,
+  "details": [
+    {"input":"我还有多少年假？","expected":"get_leave_balance","actual":"get_leave_balance","ok":true},
+    {"input":"查询一下年假余额","expected":"get_leave_balance","actual":"get_leave_balance","ok":true},
+    {"input":"帮我请2026-10-01一天年假","expected":"start_leave_request","actual":"start_leave_request","ok":true},
+    {"input":"病假政策是什么？","expected":"search_hr_policy","actual":"search_hr_policy","ok":true},
+    {"input":"年假有什么规定？","expected":"search_hr_policy","actual":"search_hr_policy","ok":true}
+  ]
+}
